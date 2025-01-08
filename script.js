@@ -47,4 +47,7 @@ function calcular(event) {
             imc.toFixed(2) +
             "<br/> Muito acima do peso!";
     }
+
+    document.getElementById("peso").value = "";
+    document.getElementById("altura").value = "";
 }
